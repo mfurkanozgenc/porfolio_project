@@ -1,0 +1,28 @@
+name: project
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk:  ^3.5.0-315.0.dev
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get:
+  font_awesome_flutter:
+  url_launcher:
+  contacts_service:
+  syncfusion_flutter_pdfviewer:
+  flutter_pdfview: ^1.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/images/
+  - assets/docs/cv.pdf
