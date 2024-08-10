@@ -32,58 +32,10 @@
       "languageVersion": "2.18"
     },
     {
-      "name": "contacts_service",
-      "rootUri": "file:///C:/Users/Mustafa%20Furkan/AppData/Local/Pub/Cache/hosted/pub.dev/contacts_service-0.6.3",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "convert",
-      "rootUri": "file:///C:/Users/Mustafa%20Furkan/AppData/Local/Pub/Cache/hosted/pub.dev/convert-3.1.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.18"
-    },
-    {
-      "name": "crypto",
-      "rootUri": "file:///C:/Users/Mustafa%20Furkan/AppData/Local/Pub/Cache/hosted/pub.dev/crypto-3.0.3",
-      "packageUri": "lib/",
-      "languageVersion": "2.19"
-    },
-    {
-      "name": "device_info_plus",
-      "rootUri": "file:///C:/Users/Mustafa%20Furkan/AppData/Local/Pub/Cache/hosted/pub.dev/device_info_plus-10.1.2",
-      "packageUri": "lib/",
-      "languageVersion": "3.3"
-    },
-    {
-      "name": "device_info_plus_platform_interface",
-      "rootUri": "file:///C:/Users/Mustafa%20Furkan/AppData/Local/Pub/Cache/hosted/pub.dev/device_info_plus_platform_interface-7.0.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.18"
-    },
-    {
       "name": "fake_async",
       "rootUri": "file:///C:/Users/Mustafa%20Furkan/AppData/Local/Pub/Cache/hosted/pub.dev/fake_async-1.3.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
-    },
-    {
-      "name": "ffi",
-      "rootUri": "file:///C:/Users/Mustafa%20Furkan/AppData/Local/Pub/Cache/hosted/pub.dev/ffi-2.1.2",
-      "packageUri": "lib/",
-      "languageVersion": "3.3"
-    },
-    {
-      "name": "file",
-      "rootUri": "file:///C:/Users/Mustafa%20Furkan/AppData/Local/Pub/Cache/hosted/pub.dev/file-7.0.0",
-      "packageUri": "lib/",
-      "languageVersion": "3.0"
-    },
-    {
-      "name": "fixnum",
-      "rootUri": "file:///C:/Users/Mustafa%20Furkan/AppData/Local/Pub/Cache/hosted/pub.dev/fixnum-1.1.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.19"
     },
     {
       "name": "flutter",
@@ -96,12 +48,6 @@
       "rootUri": "file:///C:/Users/Mustafa%20Furkan/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_lints-4.0.0",
       "packageUri": "lib/",
       "languageVersion": "3.1"
-    },
-    {
-      "name": "flutter_pdfview",
-      "rootUri": "file:///C:/Users/Mustafa%20Furkan/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_pdfview-1.3.2",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
     },
     {
       "name": "flutter_test",
@@ -126,30 +72,6 @@
       "rootUri": "file:///C:/Users/Mustafa%20Furkan/AppData/Local/Pub/Cache/hosted/pub.dev/get-4.6.6",
       "packageUri": "lib/",
       "languageVersion": "2.15"
-    },
-    {
-      "name": "http",
-      "rootUri": "file:///C:/Users/Mustafa%20Furkan/AppData/Local/Pub/Cache/hosted/pub.dev/http-1.2.2",
-      "packageUri": "lib/",
-      "languageVersion": "3.3"
-    },
-    {
-      "name": "http_parser",
-      "rootUri": "file:///C:/Users/Mustafa%20Furkan/AppData/Local/Pub/Cache/hosted/pub.dev/http_parser-4.0.2",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "intl",
-      "rootUri": "file:///C:/Users/Mustafa%20Furkan/AppData/Local/Pub/Cache/hosted/pub.dev/intl-0.19.0",
-      "packageUri": "lib/",
-      "languageVersion": "3.0"
-    },
-    {
-      "name": "js",
-      "rootUri": "file:///C:/Users/Mustafa%20Furkan/AppData/Local/Pub/Cache/hosted/pub.dev/js-0.7.1",
-      "packageUri": "lib/",
-      "languageVersion": "3.1"
     },
     {
       "name": "leak_tracker",
@@ -200,22 +122,10 @@
       "languageVersion": "3.0"
     },
     {
-      "name": "petitparser",
-      "rootUri": "file:///C:/Users/Mustafa%20Furkan/AppData/Local/Pub/Cache/hosted/pub.dev/petitparser-6.0.2",
-      "packageUri": "lib/",
-      "languageVersion": "3.2"
-    },
-    {
       "name": "plugin_platform_interface",
       "rootUri": "file:///C:/Users/Mustafa%20Furkan/AppData/Local/Pub/Cache/hosted/pub.dev/plugin_platform_interface-2.1.8",
       "packageUri": "lib/",
       "languageVersion": "3.0"
-    },
-    {
-      "name": "quiver",
-      "rootUri": "file:///C:/Users/Mustafa%20Furkan/AppData/Local/Pub/Cache/hosted/pub.dev/quiver-3.2.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
     },
     {
       "name": "sky_engine",
@@ -228,12 +138,6 @@
       "rootUri": "file:///C:/Users/Mustafa%20Furkan/AppData/Local/Pub/Cache/hosted/pub.dev/source_span-1.10.0",
       "packageUri": "lib/",
       "languageVersion": "2.18"
-    },
-    {
-      "name": "sprintf",
-      "rootUri": "file:///C:/Users/Mustafa%20Furkan/AppData/Local/Pub/Cache/hosted/pub.dev/sprintf-7.0.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
     },
     {
       "name": "stack_trace",
@@ -254,54 +158,6 @@
       "languageVersion": "2.18"
     },
     {
-      "name": "syncfusion_flutter_core",
-      "rootUri": "file:///C:/Users/Mustafa%20Furkan/AppData/Local/Pub/Cache/hosted/pub.dev/syncfusion_flutter_core-26.2.8",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
-      "name": "syncfusion_flutter_pdf",
-      "rootUri": "file:///C:/Users/Mustafa%20Furkan/AppData/Local/Pub/Cache/hosted/pub.dev/syncfusion_flutter_pdf-26.2.8",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
-      "name": "syncfusion_flutter_pdfviewer",
-      "rootUri": "file:///C:/Users/Mustafa%20Furkan/AppData/Local/Pub/Cache/hosted/pub.dev/syncfusion_flutter_pdfviewer-26.2.8",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
-      "name": "syncfusion_flutter_signaturepad",
-      "rootUri": "file:///C:/Users/Mustafa%20Furkan/AppData/Local/Pub/Cache/hosted/pub.dev/syncfusion_flutter_signaturepad-26.2.8",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
-      "name": "syncfusion_pdfviewer_macos",
-      "rootUri": "file:///C:/Users/Mustafa%20Furkan/AppData/Local/Pub/Cache/hosted/pub.dev/syncfusion_pdfviewer_macos-26.2.8",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
-      "name": "syncfusion_pdfviewer_platform_interface",
-      "rootUri": "file:///C:/Users/Mustafa%20Furkan/AppData/Local/Pub/Cache/hosted/pub.dev/syncfusion_pdfviewer_platform_interface-26.2.8",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
-      "name": "syncfusion_pdfviewer_web",
-      "rootUri": "file:///C:/Users/Mustafa%20Furkan/AppData/Local/Pub/Cache/hosted/pub.dev/syncfusion_pdfviewer_web-26.2.8",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
-      "name": "syncfusion_pdfviewer_windows",
-      "rootUri": "file:///C:/Users/Mustafa%20Furkan/AppData/Local/Pub/Cache/hosted/pub.dev/syncfusion_pdfviewer_windows-26.2.8",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
       "name": "term_glyph",
       "rootUri": "file:///C:/Users/Mustafa%20Furkan/AppData/Local/Pub/Cache/hosted/pub.dev/term_glyph-1.2.1",
       "packageUri": "lib/",
@@ -312,12 +168,6 @@
       "rootUri": "file:///C:/Users/Mustafa%20Furkan/AppData/Local/Pub/Cache/hosted/pub.dev/test_api-0.7.2",
       "packageUri": "lib/",
       "languageVersion": "3.2"
-    },
-    {
-      "name": "typed_data",
-      "rootUri": "file:///C:/Users/Mustafa%20Furkan/AppData/Local/Pub/Cache/hosted/pub.dev/typed_data-1.3.2",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
     },
     {
       "name": "url_launcher",
@@ -368,12 +218,6 @@
       "languageVersion": "3.2"
     },
     {
-      "name": "uuid",
-      "rootUri": "file:///C:/Users/Mustafa%20Furkan/AppData/Local/Pub/Cache/hosted/pub.dev/uuid-4.4.2",
-      "packageUri": "lib/",
-      "languageVersion": "3.0"
-    },
-    {
       "name": "vector_math",
       "rootUri": "file:///C:/Users/Mustafa%20Furkan/AppData/Local/Pub/Cache/hosted/pub.dev/vector_math-2.1.4",
       "packageUri": "lib/",
@@ -392,31 +236,13 @@
       "languageVersion": "3.4"
     },
     {
-      "name": "win32",
-      "rootUri": "file:///C:/Users/Mustafa%20Furkan/AppData/Local/Pub/Cache/hosted/pub.dev/win32-5.5.3",
-      "packageUri": "lib/",
-      "languageVersion": "3.4"
-    },
-    {
-      "name": "win32_registry",
-      "rootUri": "file:///C:/Users/Mustafa%20Furkan/AppData/Local/Pub/Cache/hosted/pub.dev/win32_registry-1.1.4",
-      "packageUri": "lib/",
-      "languageVersion": "3.4"
-    },
-    {
-      "name": "xml",
-      "rootUri": "file:///C:/Users/Mustafa%20Furkan/AppData/Local/Pub/Cache/hosted/pub.dev/xml-6.5.0",
-      "packageUri": "lib/",
-      "languageVersion": "3.2"
-    },
-    {
       "name": "project",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "3.5"
     }
   ],
-  "generated": "2024-08-10T15:20:07.703030Z",
+  "generated": "2024-08-10T18:50:57.320180Z",
   "generator": "pub",
   "generatorVersion": "3.5.0-315.0.dev",
   "flutterRoot": "file:///C:/src/flutter",

@@ -1,11 +1,9 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_pdfview/flutter_pdfview.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
 import 'package:project/base/base_state.dart';
 import 'package:project/pages/homePage/home_controller.dart';
-import 'package:syncfusion_flutter_pdfviewer/pdfviewer.dart';
 
 class HomeView extends GetView<HomeController> with BaseState {
   @override
@@ -75,41 +73,29 @@ class HomeView extends GetView<HomeController> with BaseState {
                                   )),
                             ],
                           ),
-                          (defaultTargetPlatform == TargetPlatform.android ||
-                                  defaultTargetPlatform == TargetPlatform.iOS)
-                              ? Row(
-                                  mainAxisAlignment: MainAxisAlignment.center,
-                                  children: [
-                                    IconButton(
-                                      onPressed: () {
-                                        Navigator.push(
-                                          context,
-                                          MaterialPageRoute(
-                                              builder: (context) =>
-                                                  PDFModalContent()),
-                                        );
-                                      },
-                                      icon: const Icon(Icons.folder, size: 20),
-                                    ),
-                                    TextButton(
-                                        onPressed: () {
-                                          Navigator.push(
-                                            context,
-                                            MaterialPageRoute(
-                                                builder: (context) =>
-                                                    PDFModalContent()),
-                                          );
-                                        },
-                                        child: Text(
-                                          'Cv İndir',
-                                          style: TextStyle(
-                                              fontSize: 10,
-                                              color: constants
-                                                  .colors.generalColor),
-                                        )),
-                                  ],
-                                )
-                              : const Text('')
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              const Icon(
+                                Icons.folder,
+                                size: 20,
+                              ),
+                              TextButton(
+                                  onPressed: () {
+                                    Navigator.push(
+                                        context,
+                                        MaterialPageRoute(
+                                            builder: (context) =>
+                                                PDFModalContent()));
+                                  },
+                                  child: Text(
+                                    'Cv Görüntüle',
+                                    style: TextStyle(
+                                        fontSize: 10,
+                                        color: constants.colors.generalColor),
+                                  )),
+                            ],
+                          ),
                         ],
                       ),
                     ),
@@ -231,7 +217,8 @@ class HomeView extends GetView<HomeController> with BaseState {
                     physics: const NeverScrollableScrollPhysics(),
                     gridDelegate:
                         const SliverGridDelegateWithFixedCrossAxisCount(
-                            crossAxisCount: 3),
+                      crossAxisCount: 4,
+                    ),
                     itemCount: services.databaseService.contancts.length,
                     itemBuilder: (context, index) {
                       var contact = services.databaseService.contancts[index];
@@ -250,18 +237,18 @@ class HomeView extends GetView<HomeController> with BaseState {
                           child: Column(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
-                              FaIcon(contact.icon),
-                              Padding(
-                                padding: const EdgeInsets.only(top: 5),
-                                child: Text(
-                                  contact.name,
-                                  textAlign: TextAlign.left,
-                                  style: const TextStyle(
-                                      color: Colors.black,
-                                      fontSize: 10,
-                                      fontWeight: FontWeight.bold),
-                                ),
-                              ),
+                              Icon(contact.icon),
+                              // Padding(
+                              //   padding: const EdgeInsets.only(top: 5),
+                              //   child: Text(
+                              //     contact.name,
+                              //     textAlign: TextAlign.left,
+                              //     style: const TextStyle(
+                              //         color: Colors.black,
+                              //         fontSize: 10,
+                              //         fontWeight: FontWeight.bold),
+                              //   ),
+                              // ),
                             ],
                           ),
                         ),
@@ -281,10 +268,34 @@ class HomeView extends GetView<HomeController> with BaseState {
 class PDFModalContent extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      height: MediaQuery.of(context).size.height * 0.8,
-      child: const PDFView(
-        filePath: 'assets/docs/cv.pdf',
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Cv'.toUpperCase()),
+        centerTitle: true,
+        backgroundColor: const Color(0xFFee403c),
+      ),
+      body: Padding(
+        padding: const EdgeInsets.all(5),
+        child: Center(
+          child: Card(
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(20),
+              side: const BorderSide(color: Color(0xFFee403c), width: 3),
+            ),
+            elevation: 15,
+            child: ClipRRect(
+              borderRadius: BorderRadius.circular(20),
+              child: Container(
+                width: Get.width,
+                height: Get.height,
+                child: Image.asset(
+                  'assets/images/cv.png',
+                  fit: BoxFit.fill,
+                ),
+              ),
+            ),
+          ),
+        ),
       ),
     );
   }

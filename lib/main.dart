@@ -4,6 +4,7 @@ import 'package:project/route/pages.dart';
 import 'package:project/route/routes.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(const MainApp());
 }
 

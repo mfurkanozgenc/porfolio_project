@@ -32,17 +32,22 @@ class DatabaseService {
         value: '+905359148531',
         isPhone: true),
     Contact(
-        name: '/mfurkanozgenc',
+        name: 'İnstagram',
         icon: FontAwesomeIcons.instagram,
         value:
             'https://www.instagram.com/mfurkanozgenc?igsh=cThzcGFqOWw5a3F5&utm_source=qr',
         isPhone: false),
     Contact(
-        name: '/mustafafurkanozgenc',
-        icon: FontAwesomeIcons.linkedinIn,
+        name: 'LinkedIn',
+        icon: FontAwesomeIcons.linkedin,
         value:
             'https://www.linkedin.com/in/mustafa-furkan-%C3%B6zgen%C3%A7-4908651b4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
         isPhone: false),
+    Contact(
+        name: 'GitGub',
+        icon: FontAwesomeIcons.github,
+        value: 'https://github.com/mfurkanozgenc?tab=repositories',
+        isPhone: false)
   ];
 }
 

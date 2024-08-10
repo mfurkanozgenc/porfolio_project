@@ -12,9 +12,7 @@ dependencies:
   get:
   font_awesome_flutter:
   url_launcher:
-  contacts_service:
-  syncfusion_flutter_pdfviewer:
-  flutter_pdfview: ^1.3.2
+
 
 dev_dependencies:
   flutter_test:
