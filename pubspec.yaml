@@ -12,7 +12,7 @@ dependencies:
   get:
   font_awesome_flutter:
   url_launcher:
-
+  simple_icons:
 
 dev_dependencies:
   flutter_test:

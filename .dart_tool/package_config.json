@@ -128,6 +128,12 @@
       "languageVersion": "3.0"
     },
     {
+      "name": "simple_icons",
+      "rootUri": "file:///C:/Users/Mustafa%20Furkan/AppData/Local/Pub/Cache/hosted/pub.dev/simple_icons-10.1.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "sky_engine",
       "rootUri": "file:///C:/src/flutter/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
@@ -242,7 +248,7 @@
       "languageVersion": "3.5"
     }
   ],
-  "generated": "2024-08-10T18:50:57.320180Z",
+  "generated": "2024-08-11T09:38:19.117984Z",
   "generator": "pub",
   "generatorVersion": "3.5.0-315.0.dev",
   "flutterRoot": "file:///C:/src/flutter",

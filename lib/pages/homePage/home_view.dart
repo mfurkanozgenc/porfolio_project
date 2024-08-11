@@ -199,6 +199,17 @@ class HomeView extends GetView<HomeController> with BaseState {
                                   fontSize: 10,
                                   fontWeight: FontWeight.bold),
                             ),
+                            Padding(
+                              padding: const EdgeInsets.only(top: 5),
+                              child: Text(
+                                job.date,
+                                textAlign: TextAlign.center,
+                                style: const TextStyle(
+                                    color: Colors.black,
+                                    fontSize: 10,
+                                    fontWeight: FontWeight.bold),
+                              ),
+                            ),
                           ],
                         ),
                       );
